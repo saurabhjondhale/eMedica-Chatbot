@@ -1,20 +1,5 @@
 ⚠️ Disclaimer: This chatbot should not replace professional medical advice.
 
-# 🏥 eMedica Health Chat Bot
-eMedica-Health-Chat-Bot/
-│── app.py                  # Main Streamlit app
-│── requirements.txt        # Python dependencies
-│── README.md               # Project overview
-│── .gitignore              # Ignore sensitive files
-│── example.env             # Safe template for environment variables
-│── /data/                  # Datasets (ignored in .gitignore)
-│── /models/                # Trained/fine-tuned models (ignored)
-│── /generated_reports/     # AI-generated outputs (ignored)
-│── /uploaded_reports/      # Uploaded PDFs (ignored)
-│── /notebooks/             # For Kaggle/colab experiments
-│── /utils/                 # Helper scripts (e.g., preprocessing, database)
-
-
 An AI-powered medical chatbot that:
 - Collects patient details (symptoms, history, reports).
 - Analyzes conditions and generates structured medical synopses.
