@@ -18,15 +18,6 @@ An AI-powered medical chatbot that:
 
 ---
 
-## 📦 Installation
-```bash
-git clone https://github.com/<your-username>/eMedica-Health-Chat-Bot.git
-cd eMedica-Health-Chat-Bot
-python3 -m venv .venv
-source .venv/bin/activate   # Linux/Mac
-.venv\Scripts\activate      # Windows
-
-
 requiirements.txt
 # Core
 streamlit>=1.32.0
