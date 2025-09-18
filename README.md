@@ -40,6 +40,26 @@ cd eMedica-Health-Chat-Bot
 python3 -m venv .venv
 source .venv/bin/activate   # Linux/Mac
 .venv\Scripts\activate      # Windows
+
+
+requiirements.txt
+# Core
+streamlit>=1.32.0
+torch>=2.2.0
+transformers>=4.40.0
+
+# Database
+sqlalchemy>=2.0.29
+
+# Utilities
+python-dotenv>=1.0.1
+
+# PDF handling (if later needed for OCR/reading)
+pypdf2>=3.0.1
+
+# Optional (for extra text processing, if you expand)
+pandas>=2.2.2
+
 pip install -r requirements.txt
 
 
